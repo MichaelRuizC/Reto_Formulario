@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Formulario Reto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Form.css">
+    </head>
+    <body>
+        <form action ="">
+            <h1> Sign Up</h1>
+            <br>
+            <label for="primer nombre">First Name:</label><br>
+                <input type="text" id="primer_nombre"
+                required
+                minlength="7"
+                >
+                <br> <br>
+                <label for="edad">Age:</label><br>
+                <input type="number" name="edad" value="" min="18" max="120" step="1"
+                required
+                >
+                <br> <br>
+                <label for="income">Income:</label><br>
+                <input type="text" id="income"
+                required
+                minlength="7"
+                >
+                <br><br>
+                <label>More Info</label><br>
+                <textarea rows="3" cols="40"></textarea>
+                <br><br>
+                <label>Género</label><br>
+                <input type="radio" name="genero" value = "male">Male
+                <input type ="radio" name="genero" value = "female">Female
+                <input type ="radio"name="genero" value = "trans"> Trans
+                <br> <br>
+                <label>Plan</label>
+                <br>
+                <select required>
+                    <option selected disabled>Select Plan</option>
+                    <option value="Plus">Plan Plus 99 soles</option>
+                    <option value="Gold">Plan Gold 149 soles</option>
+                    <option value="Black">Plan Black 199 soles</option>
+                </select>
+                <br>
+                <input type="checkbox">
+                <label style="font-weight: normal;">Subscribe to Newsletter</label>
+                <br><br>
+                <input type="submit"value="Update">
+
+        </form>
+
+    </body>
+</html>
